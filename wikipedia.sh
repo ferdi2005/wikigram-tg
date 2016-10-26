@@ -2,6 +2,6 @@
 
 while :
 do
-	ruby ./wikigram.sh
+	ruby ./wikipedia.sh
 	sleep 5
 done

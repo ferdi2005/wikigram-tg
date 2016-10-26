@@ -1,7 +1,7 @@
 ## wikigram-tg
 ## Source is distributed under the AGPL v3.0
 ## https://www.gnu.org/licenses/agpl-3.0.html
-##
+##    Copyright (C) 2016  @LucentW - Casa
 ## Contributions to the code are welcome.
 
 require 'telegram/bot'

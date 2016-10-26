@@ -2,7 +2,9 @@
 Questo bot consente di ricavare pagine di Wikipedia in Lingua Italiana in modalità Inline da Telegram.
 Il bot è stato creato da @ferdi2005 (ed è hostato su proprio server) per [il network gruppi Wikipedia in Italiano](http://telegram.me/wikinetwork)
 Il bot è basato su un prodotto originale di @LucentW ed è di sua proprietà. Il codice è stato modificato per essere adattato.
+
 Copyright (C) 2016  @LucentW - Casa
+
 ## Utilizzo del bot
 Basta avviare il bot con ```/start``` e poi sarà possibile richiamarlo inline semplicemente scrivendo ```@itwikipediabot Nome della voce```
 ## Perchè questo bot?

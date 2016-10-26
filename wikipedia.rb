@@ -10,10 +10,10 @@ require 'json'
 
 ## CONFIGURATION START ##
 token = 'INSERT_YOUR_BOT_TOKEN_HERE' # Telegram bot API token
-api_ep = 'https://wikigram.it/api.php' # Mediawiki API endpoint
-# api_ep = 'https://it.wikipedia.org/w/api.php' # Example: Wikipedia API endpoint
-page_uri = "#{api_ep[0..-8]}/" # Base URL for pages
-# page_uri = "#{api_ep[0..-10]}wiki/" # Example: URL pattern for Wikipedia
+# api_ep = 'https://wikigram.it/api.php' # Wikigram Api Sample
+api_ep = 'https://it.wikipedia.org/w/api.php'# Mediawiki API endpoint
+# page_uri = "#{api_ep[0..-8]}/" # Example: URL pattern for Wikipedia
+page_uri = "#{api_ep[0..-10]}wiki/" # Base URL for pages
 ## CONFIGURATION END ##
 
 mw = MediawikiApi::Client.new api_ep

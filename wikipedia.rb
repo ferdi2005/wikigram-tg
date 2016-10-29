@@ -9,7 +9,7 @@ require 'mediawiki_api'
 require 'json'
 
 ## CONFIGURATION START ##
-token = '277228816:AAG_x1E3I29UEN3WZYaeMTa4oPD81rJpPcU' # Telegram bot API token
+token = 'INSERT_HERE_YOUR_BOT_TOKEN' # Telegram bot API token
 # api_ep = 'https://wikigram.it/api.php' # Wikigram Api Sample
 api_ep = 'https://it.wikipedia.org/w/api.php'# Mediawiki API endpoint
 # page_uri = "#{api_ep[0..-8]}/" # Example: URL pattern for Wikipedia

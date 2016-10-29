@@ -2,6 +2,6 @@
 
 while :
 do
-	ruby ./wikipedia.sh
+	ruby ./wikipedia.rb
 	sleep 5
 done

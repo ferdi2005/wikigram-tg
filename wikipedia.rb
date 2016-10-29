@@ -38,7 +38,7 @@ Telegram::Bot::Client.run(token) do |bot|
           results << Telegram::Bot::Types::InlineQueryResultArticle.new(
             id: 1,
             title: "Nessun risultato presente.",
-            input_message_content: Telegram::Bot::Types::InputTextMessageContent.new(message_text: "Ci dispiace, non c'è alcuna voce con questo titolo. Prova a chiedere su @itwikipedia¯\\_(ツ)_/¯")
+            input_message_content: Telegram::Bot::Types::InputTextMessageContent.new(message_text: "Ci dispiace, non c'è nessuna voce con questo titolo. Prova a chiedere su @itwikipedia¯\\_(ツ)_/¯")
           )
         end
 

@@ -71,7 +71,7 @@ Telegram::Bot::Client.run(token) do |bot|
 
     when Telegram::Bot::Types::Message
       if message.chat.type == "private" then
-        bot.api.send_message(chat_id: message.chat.id, text: "Questo bot risponde *solo* in modalità inline Se hai bisogno di ulteriore aiuto unisciti a @itwikipedia \nThis bot replies *only* via inline queries Only Italian Language Wikipedia.", parse_mode: "Markdown")
+        bot.api.send_message(chat_id: message.chat.id, text: "Questo bot risponde *solo* in modalità telegram-inline Se hai bisogno di ulteriore aiuto unisciti a @itwikipedia \nThis bot replies *only* via inline queries Only Italian Language Wikipedia.", parse_mode: "Markdown")
       end
     end
   end

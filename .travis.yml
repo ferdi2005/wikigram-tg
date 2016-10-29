@@ -1,3 +1,4 @@
 language: ruby
+install: gem install rake
 install: gem install telegram-bot-ruby
 install: gem install mediawiki_api

@@ -9,7 +9,7 @@ require 'mediawiki_api'
 require 'json'
 
 ## CONFIGURATION START ##
-token = 'INSERT_YOUR_BOT_TOKEN_HERE' # Telegram bot API token
+token = '277228816:AAG_x1E3I29UEN3WZYaeMTa4oPD81rJpPcU' # Telegram bot API token
 # api_ep = 'https://wikigram.it/api.php' # Wikigram Api Sample
 api_ep = 'https://it.wikipedia.org/w/api.php'# Mediawiki API endpoint
 # page_uri = "#{api_ep[0..-8]}/" # Example: URL pattern for Wikipedia
@@ -38,7 +38,7 @@ Telegram::Bot::Client.run(token) do |bot|
           results << Telegram::Bot::Types::InlineQueryResultArticle.new(
             id: 1,
             title: "Nessun risultato presente.",
-            input_message_content: Telegram::Bot::Types::InputTextMessageContent.new(message_text: "Ci dispiace, non ci sono voci con questo titolo. Prova a chiedere su @itwikipedia¯\\_(ツ)_/¯")
+            input_message_content: Telegram::Bot::Types::InputTextMessageContent.new(message_text: "Ci dispiace, non ci sono voci con questo titolo ¯\\_(ツ)_/¯ Prova a chiedere su @itwikipedia")
           )
         end
 
@@ -71,7 +71,7 @@ Telegram::Bot::Client.run(token) do |bot|
 
     when Telegram::Bot::Types::Message
       if message.chat.type == "private" then
-        bot.api.send_message(chat_id: message.chat.id, text: "Questo bot risponde *solo* in modalità inline. Se hai bisogno di ulteriore aiuto unisciti a @itwikipedia \nThis bot replies *only* via inline queries. Only Italian Language Wikipedia.", parse_mode: "Markdown")
+        bot.api.send_message(chat_id: message.chat.id, text: "Questo bot risponde *solo* in modalità inline Se hai bisogno di ulteriore aiuto unisciti a @itwikipedia \nThis bot replies *only* via inline queries Only Italian Language Wikipedia.", parse_mode: "Markdown")
       end
     end
   end

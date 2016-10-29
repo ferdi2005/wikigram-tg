@@ -1,0 +1,17 @@
+{
+  "name": "wikipediabot",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/atipugin/telegram-bot-ruby"
+    }
+  ]
+}

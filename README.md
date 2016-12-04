@@ -1,4 +1,8 @@
 # Wikipedia Bot
+**Il bot è stato parzialmente dismesso. Il codice sorgente è stato trasferito qua e non verrà aggiornato per qualche tempo.
+Entrambre le repo verranno mantenute ed accetteranno pull request e issues**
+*Il nuovo bot per le ricerche su Wikipedia è @enciclobot* [Link Ufficiale](https://telegram.me/enciclobot)
+
 Questo bot consente di ricavare pagine di Wikipedia in Lingua Italiana in modalità Inline da Telegram.
 Il bot è stato creato da @ferdi2005 (ed è hostato su proprio server) per [il network gruppi Wikipedia in Italiano](http://telegram.me/wikinetwork)
 Il bot è basato su un prodotto originale di @LucentW ed è di sua proprietà. Il codice è stato modificato per essere adattato.

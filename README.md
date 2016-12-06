@@ -1,3 +1,10 @@
+# Developers Edition
+**Questa versione del bot è stata testata e non è funzionante**
+
+Per questo motivo **ne è sconsigliato l'utilizzo** se non si è esperti. In ogni caso, sarà possibile utilizzare la versione contenuta nella branch master o sarà possibile contribuire per risolvere il problema.
+_Di seguito la presentazione del bot_
+---------------------------------------------------------------------------
+
 # Wikipedia Bot
 **Il bot è stato parzialmente dismesso. Il codice sorgente è stato trasferito qua e non verrà aggiornato per qualche tempo.
 Entrambre le repo verranno mantenute ed accetteranno pull request e issues**

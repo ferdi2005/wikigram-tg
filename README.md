@@ -2,7 +2,7 @@
 **Questa versione del bot è stata testata e non è funzionante**
 
 Per questo motivo **ne è sconsigliato l'utilizzo** se non si è esperti. In ogni caso, sarà possibile utilizzare la versione contenuta nella branch master o sarà possibile contribuire per risolvere il problema.
-_Di seguito la presentazione del bot_
+**Di seguito la presentazione del bot**
 ---------------------------------------------------------------------------
 
 # Wikipedia Bot

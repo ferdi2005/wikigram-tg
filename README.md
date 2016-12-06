@@ -1,4 +1,4 @@
-# Wikipedia Bot [!](https://img.shields.io/badge/telegram-%40regowiki-red.svg) [!](https://img.shields.io/badge/stato-dismesso-green.svg) [!](https://img.shields.io/badge/release-v2.0-green.svg)
+# Wikipedia Bot [!(https://img.shields.io/badge/telegram-%40regowiki-red.svg) [!(https://img.shields.io/badge/stato-dismesso-green.svg) [!(https://img.shields.io/badge/release-v2.0-green.svg)
 **Il bot è stato parzialmente dismesso. Il codice sorgente è stato trasferito qua e non verrà aggiornato per qualche tempo.
 Entrambre le repo verranno mantenute ed accetteranno pull request e issues**
 *Il nuovo bot per le ricerche su Wikipedia è @enciclobot* [Link Ufficiale](https://telegram.me/enciclobot)

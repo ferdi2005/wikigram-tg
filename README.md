@@ -3,6 +3,7 @@
 
 Per questo motivo **ne è sconsigliato l'utilizzo** se non si è esperti. In ogni caso, sarà possibile utilizzare la versione contenuta nella branch master o sarà possibile contribuire per risolvere il problema.
 **Di seguito la presentazione del bot**
+
 ---------------------------------------------------------------------------
 
 # Wikipedia Bot

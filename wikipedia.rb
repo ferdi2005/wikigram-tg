@@ -9,7 +9,7 @@ require 'mediawiki_api'
 require 'json'
 
 ## CONFIGURATION START ##
-token = 'INSERT_BOT_TOKEN_HERE' # Telegram bot API token
+token = 'INSERT_YOUR_BOT_TOKEN_HERE' # Telegram bot API token
 # api_ep = 'https://wikigram.it/api.php' # Wikigram Api Sample
 api_ep = 'https://it.wikipedia.org/w/api.php'# Mediawiki API endpoint
 # page_uri = "#{api_ep[0..-8]}/" # Example: URL pattern for Wikipedia
@@ -38,7 +38,7 @@ Telegram::Bot::Client.run(token) do |bot|
           results << Telegram::Bot::Types::InlineQueryResultArticle.new(
             id: 1,
             title: "Nessun risultato presente.",
-            input_message_content: Telegram::Bot::Types::InputTextMessageContent.new(message_text: "Ci dispiace, non ci sono voci con questo titolo Prova a chiedere su @itwikipedia")
+            input_message_content: Telegram::Bot::Types::InputTextMessageContent.new(message_text: "Ci dispiace, non c'è nessuna voce con questo titolo. Prova a chiedere su @itwikipedia¯\\_(ツ)_/¯")
           )
         end
 
@@ -67,6 +67,11 @@ Telegram::Bot::Client.run(token) do |bot|
         end
 
         bot.api.answer_inline_query(inline_query_id: message.id, results: results) rescue puts "Error in replying. Nothing too special."
+      end
+
+    when Telegram::Bot::Types::Message
+      if message.chat.type == "private" then
+        bot.api.send_message(chat_id: message.chat.id, text: "Questo bot risponde *solo* in modalità inline. Se hai bisogno di ulteriore aiuto unisciti a @itwikipedia \nThis bot replies *only* via inline queries. Only Italian Language Wikipedia.", parse_mode: "Markdown")
       end
     end
   end

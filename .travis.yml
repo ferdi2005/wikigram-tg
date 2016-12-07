@@ -1,0 +1,8 @@
+language: ruby
+rvm:
+ - 1.9
+ - jruby
+ - rbx-2
+install: gem install mediawiki_api
+install: gem install telegram-bot-ruby
+install: gem install json

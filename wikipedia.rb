@@ -48,8 +48,8 @@ Telegram::Bot::Client.run(token) do |bot|
           cur_extract = mw.query(prop: "extracts", exchars: 300, exsectionformat: "plain", explaintext: "", redirects: "", exintro: true, titles: curres["title"])
 
           hash_extract = cur_extract.data["pages"]
-          hash_extract.each do |id, page|
-            norm_title = curres["title"].gsub(" ", "_")
+          hash_extract.each do |_id, page|
+            norm_title = curres["title"].tr(" ", "_")
 
             results << Telegram::Bot::Types::InlineQueryResultArticle.new(
               id: counter,

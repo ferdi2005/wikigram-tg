@@ -9,6 +9,8 @@ Il bot è basato su un prodotto originale di @LucentW ed è di sua proprietà. I
 
 Copyright (C) 2016  @LucentW - Casa
 
+## Installazione 
+Seguire la procedura in installazione.md
 ## Utilizzo del bot
 Basta avviare il bot con ```/start``` e poi sarà possibile richiamarlo inline semplicemente scrivendo ```@itwikipediabot Nome della voce```
 ## Perchè questo bot?
